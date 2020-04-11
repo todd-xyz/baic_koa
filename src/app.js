@@ -15,7 +15,7 @@ app.use(async (ctx, next) => {
     if (ctx.request.path === '/api') {
         ctx.response.type = 'text/html'
         ctx.response.body = JSON.stringify({
-            name: '薛涛',
+            name: 'somwone',
             age: 18
         })
     }else{
